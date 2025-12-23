@@ -75,7 +75,10 @@
 
 .submit-container{
     display: flex;
-    margin: 60px auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 30px;
 }
 
@@ -91,4 +94,25 @@
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+}
+
+.google{
+    display: flex;
+    gap: 30px;
+    background: #4c00b4;
+    height: 59px;
+    width: 475px;
+    border-radius: 50px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.google img{
+    height: 30px;
+    width: 30px;
 }

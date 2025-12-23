@@ -4,6 +4,7 @@ import './LoginSignup.css'
 import user_icon from '../Assets/person.png'
 import email_icon from '../Assets/email.png'
 import password_icon from '../Assets/password.png'
+import google_icon from '../Assets/google.png'
 
 const LoginSignup = () => {
     return(
@@ -31,6 +32,10 @@ const LoginSignup = () => {
                 <div className="submit-container">
                     <div className="submit">Sign Up</div>
                     <div className="submit">Sign In</div>
+                </div>
+                <div className="google">
+                    <div className="text-google">Sing In with Google</div>
+                    <img src= {google_icon} alt="" />
                 </div>
             </div>
         </div>
